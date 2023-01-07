@@ -1,14 +1,17 @@
 {
-  "name": "07-jan-pipelines-github-actions",
+  "name": "@ravi-git-22/07-jan-pipelines-github-actions",
   "version": "1.0.0",
-  "description": "testing github actions",
+  "description": "testing github actions/packages",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "scripts": {
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/ravi-git-22/07-Jan-pipelines.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "author": "ravi.k",
   "license": "ISC",
@@ -19,4 +22,5 @@
   "devDependencies": {
     "jest": "^29.3.1"
   }
+  
 }
