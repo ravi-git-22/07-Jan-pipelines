@@ -1,0 +1,22 @@
+{
+  "name": "07-jan-pipelines-github-actions",
+  "version": "1.0.0",
+  "description": "testing github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ravi-git-22/07-Jan-pipelines.git"
+  },
+  "author": "ravi.k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravi-git-22/07-Jan-pipelines/issues"
+  },
+  "homepage": "https://github.com/ravi-git-22/07-Jan-pipelines#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
